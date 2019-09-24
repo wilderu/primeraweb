@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    background: url(../img/fondo.jpg);
+}
