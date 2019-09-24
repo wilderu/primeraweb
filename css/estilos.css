@@ -5,11 +5,15 @@ body{
 
 header .contenedor {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 header ul {
     display: flex;
+}
+
+header .menu .contenedor p{
+    color:beige;
 }
 
 header ul li {
@@ -29,4 +33,11 @@ a {
 
 header{
     background: url(../img/fondo.jpg);
+}
+
+header .menu .contenedor img{
+    display: block;
+    width: 55px;
+    height: 70px;
+    margin-right: 15px;
 }
